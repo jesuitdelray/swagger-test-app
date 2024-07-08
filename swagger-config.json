@@ -1,0 +1,12 @@
+{
+    "$schema": "https://raw.githubusercontent.com/acacode/swagger-typescript-api/main/tests/spec/axios/schema.json",
+    "name": "yourApi.ts",
+    "output": "src/api",
+    "input": "swagger.json",
+    "httpClientType": "axios",
+    "generateResponses": true,
+    "defaultResponseAsSuccess": false,
+    "generateRouteTypes": true,
+    "generateClient": true,
+    "cleanOutput": true
+}
